@@ -1,0 +1,91 @@
+.forms {
+  margin-top: 80px;
+}
+
+.forms h2 {
+  text-decoration: underline;
+  text-align: center;
+  margin-bottom: 30px;
+  color: inherit;
+  margin-top: -25px;
+  text-indent: 8px;
+  font-size: 48px;
+  border-bottom: 1px solid #dfe7f1;
+  border-radius: 0;
+}
+.forms form {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 4px;
+  color: #505e6c;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.57);
+}
+
+.forms form .form-control {
+  background: #f7f9fc;
+  font-weight: bold;
+  border-bottom: 1px solid #dfe7f1;
+  border-radius: 3;
+  box-shadow: none;
+  outline: none;
+  color: inherit;
+  text-indent: 8px;
+  height: 42px;
+}
+
+.forms form .label {
+  width: 200px;
+  border: none;
+  font-weight: bold;
+  outline: none;
+  color: inherit;
+  text-indent: 8px;
+}
+
+.forms form .form-control::placeholder {
+  font-weight: normal;
+}
+
+.forms form .form-control:focus {
+  color: rgb(163, 0, 0);
+}
+
+.forms form .btn-primary {
+  max-width: 150px;
+  background: #00a0e4;
+  border: none;
+  border-radius: 4px;
+  padding: 11px;
+  box-shadow: none;
+  margin-top: 26px;
+  text-shadow: none;
+  outline: none !important;
+}
+
+.forms form .btn-primary:hover,
+.forms form .btn-primary:active {
+  background: #2f3438;
+  color: rgb(237, 169, 31);
+  border-radius: 4px;
+}
+
+.forms form .btn-primary:active {
+  transform: translateY(1px);
+}
+
+.loading {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+}
+
+.photo {
+  margin-bottom: 20px;
+}
+
+.align-items-center {
+  text-align: "center";
+}

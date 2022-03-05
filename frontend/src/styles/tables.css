@@ -1,0 +1,49 @@
+body {
+  /*background: #f7f9fc;*/
+  background: #eeeeee;
+}
+
+.respTable h2 {
+  text-decoration: underline;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 30px;
+  color: inherit;
+  text-indent: 8px;
+  font-size: 48px;
+  border-bottom: 1px solid #dfe7f1;
+  border-radius: 0;
+}
+
+.respTable {
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  border-radius: 4px;
+  color: #505e6c;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.57);
+  width: 90%;
+  min-height: 600px;
+  border-collapse: collapse;
+  padding: 0px 20px 60px 20px;
+}
+
+.respTable th {
+  background: #343a40;
+  color: white;
+  font-weight: normal;
+}
+
+.respTable td,
+th {
+  padding: 6px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.react-bootstrap-table table {
+  table-layout: auto !important;
+}

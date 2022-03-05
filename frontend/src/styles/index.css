@@ -1,0 +1,33 @@
+.col {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  font-size: 12px;
+  color: #e6e6e6;
+  background-color: #343a40;
+}
+
+.chkbox {
+  display: "flex";
+  flex: 1;
+  background-color: #011d96;
+  align-self: "stretch";
+}
+
+.modal-90w{
+  width: 90vw ;   /* Occupy the 90% of the screen width */
+  max-width: 90vw;
+  padding: 4%;
+  align-items: flex-start;
+}
+
+.precheck {
+  background-color: rgb(2, 121, 32);
+}
+
